@@ -46,3 +46,12 @@ The **Notebook App** is a full-stack web application that allows users to regist
   - View a list of all notebooks created by the logged-in user.
 
 ---
+![Screenshot 2025-06-16 000853](https://github.com/user-attachments/assets/bd8b9d22-b2a3-4e6e-aa02-e196221a27be)
+
+![Screenshot 2025-06-16 000955](https://github.com/user-attachments/assets/888a929b-df65-4dd2-bd76-4555a1a50279)
+
+![Screenshot 2025-06-16 001020](https://github.com/user-attachments/assets/c59b9c53-cc9d-478b-b464-ac6e703e0e51)
+![Screenshot 2025-06-16 001038](https://github.com/user-attachments/assets/103224bb-48b9-4de7-af6e-6247f356ba53)
+
+
+
