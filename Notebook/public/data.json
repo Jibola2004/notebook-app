@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Meeting Notes",
+    "date": "2024-05-01",
+    "content": "Discussed project timelines and milestones."
+  },
+  {
+    "id": 2,
+    "title": "Study Plan",
+    "date": "2024-05-03",
+    "content": "Math in the morning, React in the afternoon."
+  },
+  {
+    "id": 3,
+    "title": "Project Ideas",
+    "date": "2024-05-05",
+    "content": "1. Notebook App\n2. Habit Tracker\n3. Budget Manager"
+  }
+]

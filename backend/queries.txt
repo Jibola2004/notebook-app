@@ -1,0 +1,31 @@
+CREATE TABLE IF NOT EXISTS USERS (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    username TEXT NOT NULL UNIQUE,
+    fullname TEXT NOT NULL,
+    password TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS NOTEBOOKS (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER NOT NULL,
+    title TEXT NOT NULL,
+    content TEXT NOT NULL,
+    date TEXT NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES USERS(id) ON DELETE CASCADE
+);
+
+
+INSERT INTO USERS (username,fullname,password) VALUES (?,?,?)
+
+INSERT INTO NOTEBOOKS (user_id,title,content,date) VALUES (?,?,?,?)
+
+SELECT * FROM NOTEBOOKS  WHERE user_id = (?)
+
+SELECT * FROM NOTEBOOKS
+ 
+UPDATE NOTEBOOKS SET title = ?, content=? WHERE user_id = ?
+
+DELETE FROM NOTEBOOKS WHERE  id =?
+
+
+UPDATE USERS SET fullname = ? , password =? WHERE id =?

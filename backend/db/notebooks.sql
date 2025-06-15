@@ -1,0 +1,20 @@
+
+
+-- create users table
+CREATE TABLE IF NOT EXISTS USERS (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    username TEXT NOT NULL UNIQUE,
+    fullname TEXT NOT NULL,
+    password TEXT NOT NULL
+);
+
+-- create notebooks table
+CREATE TABLE IF NOT EXISTS NOTEBOOKS (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER NOT NULL,
+    title TEXT NOT NULL,
+    content TEXT NOT NULL,
+    date TEXT NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES USERS(id) ON DELETE CASCADE
+);
+
